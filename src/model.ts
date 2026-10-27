@@ -1,5 +1,5 @@
 export type TxType = 'income' | 'expense' | 'repayment' | 'transfer'
-export type Tx = { id:string; type:TxType; amount:number; date:string; category:string; account:'Bank'|'Cash'; toAccount?:'Bank'|'Cash'; description:string; person?:string; notes?:string; debtId?:string; opportunityId?:string }
+export type Tx = { id:string; type:TxType; amount:number; date:string; category:string; subcategory?:string; account:'Bank'|'Cash'; toAccount?:'Bank'|'Cash'; description:string; person?:string; notes?:string; debtId?:string; opportunityId?:string }
 export type Debt = { id:string; name:string; lender:string; original:number; borrowed:number; dueDate?:string; installment?:number; interest?:string; notes?:string }
 export type Opportunity = { id:string; name:string; expected:number; stage:'Idea'|'Exploring'|'In Progress'|'Payment Pending'|'Paid'; expectedDate?:string; nextAction?:string; notes?:string; contact?:string }
 export type Goal = { target:number; startDate:string; deadline?:string }
