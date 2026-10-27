@@ -1,0 +1,23 @@
+.category-chip{display:inline-flex;align-items:center;height:24px;border:1px solid var(--line);border-radius:14px;background:var(--canvas);overflow:hidden}
+.category-chip .chip-name,.category-chip .chip-remove{height:22px;border:0;border-radius:0;background:transparent;color:var(--muted);font-size:8px;cursor:pointer}
+.category-chip .chip-name{padding:0 4px 0 8px}
+.category-chip .chip-remove{width:24px;padding:0;justify-content:center}
+.category-chip .chip-name:hover,.category-chip .chip-remove:hover{color:var(--peach)}
+.date-pick{height:33px;display:flex;align-items:center;gap:5px;padding:0 7px;border:1px solid var(--line);border-radius:8px;background:var(--canvas);color:var(--muted);font-size:9px}
+.date-pick input{width:110px;border:0;background:transparent;color:var(--ink);font-size:9px}
+.payment-history{border-top:1px solid var(--line);margin-top:11px;padding-top:9px}
+.payment-history summary{font-size:9px;color:var(--sage-dark);cursor:pointer;font-weight:600}
+.payment-history>div{display:flex;justify-content:space-between;gap:8px;padding:7px 0;border-bottom:1px solid var(--line);font-size:9px;color:var(--muted)}
+.payment-history>div b{color:var(--ink);white-space:nowrap}
+.confirm-message{margin:0;padding:11px 12px;border-radius:9px;background:var(--sage-soft);color:var(--muted);font-size:10px;line-height:1.55}
+@media(max-width:620px){.date-pick{flex:1}.date-pick input{width:105px}}
+:root[data-theme="dark"] .goal-hero,:root[data-theme="dark"] .goal-detail-card{background:#29342a;border-color:#364238;color:var(--ink)}
+:root[data-theme="dark"] .goal-hero .hero-kicker,:root[data-theme="dark"] .goal-hero .hero-copy>p,:root[data-theme="dark"] .goal-hero .hero-earned span,:root[data-theme="dark"] .goal-hero .progress-bottom,:root[data-theme="dark"] .goal-detail-card>p,:root[data-theme="dark"] .goal-detail-card .goal-period{color:var(--muted)}
+:root[data-theme="dark"] .goal-hero .progress-track,:root[data-theme="dark"] .goal-detail-card .progress-track{background:#3a463b}
+:root[data-theme="dark"] .quick-section,:root[data-theme="dark"] .stage-column{background:#202722}
+:root[data-theme="dark"] .next-step{background:#302f27;border-color:#413f32}
+:root[data-theme="dark"] .goal-note-card{background:#302d25!important}
+:root[data-theme="dark"] .button.primary{background:#456048;border-color:#456048;color:#f7faf4}
+:root[data-theme="dark"] .button.primary:hover{background:#526d55}
+:root[data-theme="dark"] .demo-banner{background:#343128;color:#d0c394}
+:root[data-theme="dark"] .demo-banner b,:root[data-theme="dark"] .demo-banner button{color:#e0d5a9}

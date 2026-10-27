@@ -1,0 +1,9 @@
+.neon
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
